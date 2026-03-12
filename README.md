@@ -1,5 +1,9 @@
 # Agentic Stochastic Control of LPBF
 
+<p align="center">
+  <img src="control_triangle_full_domain.gif" alt="Triangle control visualization" width="900"/>
+</p>
+
 This repository contains the code accompanying our paper, **“LLM Agent-guided Stochastic Control of Multi-layer and Multi-track Laser Powder Bed Fusion Process.”** The framework combines two coordinated agents:
 
 - **CalibAgent** for Bayesian stochastic calibration of an analytical LPBF thermal model using experimental melt-pool data
