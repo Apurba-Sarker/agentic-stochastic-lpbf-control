@@ -1,0 +1,52 @@
+{
+  "track_type": "lshape",
+  "outdir": "out_control_lshape",
+  "calib_path": "calibration_for_printing.json",
+
+  "length_mm": 3.0,
+  "width_mm": 3.0,
+  "notch_x_mm": 1.5,
+  "notch_y_mm": 1.5,
+  "hatch_spacing_um": 110.0,
+  "dx_um": 20.0,
+
+  "n_layers": 4,
+  "layer_thickness_um": 60.0,
+  "interlayer_dwell_ms": 0.0,
+
+  "z_max_um": 150.0,
+  "z_samples": 100,
+
+  "history_radius_um": 500.0,
+  "tau_hist_ms": null,
+  "behind_um": 40.0,
+
+  "turn_slowdown": 1.05,
+  "turn_angle_deg": 70.0,
+
+  "jump_threshold_um": 80.0,
+  "laser_off_for_jumps": true,
+
+  "eval_stride": 10,
+  "pmin_w": 80.0,
+  "pmax_w": 400.0,
+  "dp_max_w": 60.0,
+  "spike_threshold_um": 1.5,
+  "spike_fix_window": 12,
+  "n_fix_passes": 5,
+  "target_quantile": 0.55,
+
+  "stochastic_run": false,
+  "seed": 42,
+
+  "save_xsections": false,
+
+  "ctrl_history_radius_um": 400.0,
+  "ctrl_tau_hist_ms": 10.0,
+  "ctrl_max_outer_passes": 8,
+  "ctrl_flat_tol_um": 1.5,
+  "ctrl_improve_tol_um": 0.15,
+  "ctrl_skip_jump_neighbors": true,
+  "ctrl_jump_neighbor_radius": 2,
+  "ctrl_skip_first_eval_point": true
+}

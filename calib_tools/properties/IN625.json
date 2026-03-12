@@ -1,0 +1,14 @@
+{
+  "_comment": "Thermal properties for IN625 (Inconel 625). SI units.",
+  "name": "IN625",
+  "RHO": 8440.0,
+  "CP": 410.0,
+  "T_MELT": 1563.15,
+  "T0": 298.15,
+  "_units": {
+    "RHO": "kg/m^3  -- density",
+    "CP": "J/(kg*K) -- specific heat capacity",
+    "T_MELT": "K  -- melting / liquidus temperature",
+    "T0": "K  -- initial / preheat temperature (25 + 273.15)"
+  }
+}

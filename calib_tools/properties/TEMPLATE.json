@@ -1,0 +1,14 @@
+{
+  "_comment": "Copy this file, rename it to YOUR_MATERIAL.json, and fill in the values.",
+  "name": "YOUR_MATERIAL",
+  "RHO": 0.0,
+  "CP": 0.0,
+  "T_MELT": 0.0,
+  "T0": 0.0,
+  "_units": {
+    "RHO": "kg/m^3  -- density",
+    "CP": "J/(kg*K) -- specific heat capacity",
+    "T_MELT": "K  -- melting / liquidus temperature",
+    "T0": "K  -- initial / preheat temperature (room temp = 298.15)"
+  }
+}

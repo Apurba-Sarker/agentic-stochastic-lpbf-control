@@ -1,0 +1,53 @@
+{
+  "track_type": "45deg",
+  "outdir": "out_quantised_45deg",
+  "calib_path": "calibration_for_printing.json",
+
+  "domain_mm": 3.0,
+  "hatch_spacing_um": 110.0,
+  "dx_um": 20.0,
+
+  "z_max_um": 520.0,
+  "z_samples": 420,
+
+  "history_radius_um": 300.0,
+  "tau_hist_ms": 2.0,
+  "behind_um": 40.0,
+
+  "turn_slowdown": 1.05,
+  "turn_angle_deg": 70.0,
+
+  "jump_threshold_um": 80.0,
+  "laser_off_for_jumps": true,
+
+  "eval_stride": 10,
+  "pmin_w": 80.0,
+  "pmax_w": 400.0,
+  "dp_max_w": 300.0,
+  "spike_threshold_um": 1.5,
+  "spike_fix_window": 12,
+  "n_fix_passes": 5,
+  "target_quantile": 0.55,
+
+  "stochastic_run": true,
+  "seed": 42,
+
+  "save_xsections": true,
+  "xz_xspan_um": 240.0,
+  "xz_zmax_um": 200.0,
+  "xz_nx": 220,
+  "xz_nz": 220,
+  "sz_sspan_um": 800.0,
+  "sz_zmax_um": 220.0,
+  "sz_ns": 320,
+  "sz_nz": 240,
+  "scalebar_um": 200.0,
+  "scalebar_pad": 0.08,
+  "xsec_vmin_k": 300.0,
+  "use_farimani_clip": true,
+
+  "abc_k": 3,
+  "abc_diff_min_um": 6.0,
+  "abc_dp_min_w": 10.0,
+  "abc_min_sep_frac": 0.06
+}

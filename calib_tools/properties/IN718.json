@@ -1,0 +1,14 @@
+{
+  "_comment": "Thermal properties for IN718 (Inconel 718). SI units.",
+  "name": "IN718",
+  "RHO": 8190.0,
+  "CP": 435.0,
+  "T_MELT": 1563.15,
+  "T0": 423.15,
+  "_units": {
+    "RHO": "kg/m^3  -- density",
+    "CP": "J/(kg*K) -- specific heat capacity",
+    "T_MELT": "K  -- melting / liquidus temperature (1290 + 273.15)",
+    "T0": "K  -- initial / preheat temperature (150 + 273.15)"
+  }
+}
