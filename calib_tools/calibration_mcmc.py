@@ -212,7 +212,7 @@ class StochasticCalibrationMCMC:
         bounds = [
             (0.45, 0.9),    # mu_eta   — empirically calibrated for IN718
             (0.6, 1.2),    # mu_alpha
-            (0.005, 0.05),   # std_eta
+            (0.005, 0.06),   # std_eta
             (0.015, 0.1),   # std_alpha
         ]
 
