@@ -110,7 +110,7 @@ class StochasticCalibrationMCMC:
         sigma_m,
         n_samples  = 400,
         w_mean     = 2.0,
-        w_std      = 10.0,
+        w_std      = 5.0,
         w_kl       = 1.1,
         w_corr     = 5.0,
         reg_lambda = 1e-4,
